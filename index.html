@@ -33,16 +33,15 @@
 
         </div>
         <!-- BI/BX 가이드 끝 -->
-        <!-- TOP 버튼 -->
         <div class="top">
-            <a href="#wrap">
-                <img src="./images/top.png" alt="TOP">
+            <a href="#" id="topBtn">
+                <img src="./images/top.png" alt="top">
             </a>
         </div>
 
         <!-- BACK 버튼 -->
         <div class="back">
-            <a href="../index.html">
+            <a href="https://kimchaelin0105.github.io/BI-BX_GUIDE/">
                 <img src="./images/back.png" alt="BACK">
             </a>
         </div>
@@ -54,6 +53,18 @@
     <script src="js/sub_script.js"></script>
 
     <script src="js/mouse-follower.js" defer></script>
+
+    <script>
+        document.getElementById("topBtn").addEventListener("click", function (e) {
+            e.preventDefault();
+
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        });
+    </script>
+
 </body>
 
 
