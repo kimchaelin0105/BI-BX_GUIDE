@@ -1,0 +1,128 @@
+@charset "utf-8";
+
+/* =========================
+   기본 설정
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/* =========================
+   전체 영역
+========================= */
+
+#wrap {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* TOP / BACK 공통 */
+.top,
+.back {
+    position: fixed;
+    right: 40px;
+    z-index: 9999;
+}
+
+.top {
+    bottom: 40px;
+}
+
+.back {
+    bottom: 110px;
+}
+
+/* TOP / BACK 공통 */
+.top,
+.back {
+    position: fixed;
+    right: 40px;
+    z-index: 9999;
+}
+
+/* TOP 버튼 */
+.top {
+    bottom: 40px;
+}
+
+/* BACK 버튼 */
+.back {
+    bottom: 170px;
+}
+
+/* 버튼 크기 */
+.top a,
+.back a {
+    display: block;
+    width: 100px;
+    height: 100px;
+    transition: transform 0.3s ease;
+}
+
+/* 버튼 이미지 */
+.top a img,
+.back a img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* 호버 효과 */
+.top a:hover,
+.back a:hover {
+    transform: translateY(-5px);
+}
+/* 부드러운 스크롤 */
+html {
+    scroll-behavior: smooth;
+}
+
+F
+/* =========================
+   BI/BX GUIDE
+========================= */
+
+.guide {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+    font-size: 0;
+}
+
+.guide img {
+    display: block;
+    width: 100%;
+    height: auto;
+
+    margin: 0;
+    padding: 0;
+
+    border: 0;
+    outline: 0;
+
+    vertical-align: top;
+}
